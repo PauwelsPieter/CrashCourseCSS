@@ -1,0 +1,19 @@
+{
+  "name": "crashcoursecss",
+  "version": "1.0.0",
+  "description": "Crash course CSS and Bootstrap for starters. This crash course is made for students with good knowledge of HTML.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauwelsPieter/CrashCourseCSS.git"
+  },
+  "author": "Pieter Pauwels & Jorne Marx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauwelsPieter/CrashCourseCSS/issues"
+  },
+  "homepage": "https://github.com/PauwelsPieter/CrashCourseCSS#readme"
+}
