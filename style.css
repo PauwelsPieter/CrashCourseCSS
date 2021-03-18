@@ -1,0 +1,18 @@
+.VBgrid{
+    background-color: lightblue;
+    width: 80%;
+    padding: 1%;
+    margin: auto;
+}
+
+.VBgrid .container{
+    background-color: lightgreen;
+}
+
+.VBgrid .row{
+    background-color: lightsalmon;
+}
+
+.VBgrid .row .col-lg-3{
+    background-color: lightseagreen;
+}

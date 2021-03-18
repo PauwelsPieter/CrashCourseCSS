@@ -4,32 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
-    <title>CCCSS - Beginpagina</title>
+    <title>CCCSS - Voorbeelden bootstrap</title>
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Crash Course CSS</a>
+          <a class="navbar-brand" href="index.html">Crash Course CSS</a>
           <a type="button" class="navbar-toggler border-0" data-toggle="collapse" data-target="#navbarContent">
             <span class="navbar-toggler-icon"></span>
           </a>
           <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   BOOTSTRAP
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="bootexample.html">Voorbeelden</a>
+                  <a class="dropdown-item active" href="#">Voorbeelden</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">Grid oefening</a>
                   <a class="dropdown-item" href="#">DEEL 2</a>
@@ -46,8 +47,44 @@
           </div>
         </div>
       </nav>
+      
+      <div class="text-center">
+          <h1>Bootstrap Voorbeelden</h1>
+          <div class="w-25 m-auto"><hr></div>
+          <h2>Bootstrap Grid</h2>
+          
+          <div class="VBgrid">
+            <h3>Videogames doorheen de jaren</h3>
+            <p class="text-muted">Verander de grootte van het venster om het grid-systeem in actie te zien.</p>
+          <div class="container p-4">
+              <h5 class="text-muted">container</h5>
+              <div class="row"><h5 class="text-muted m-auto">row</h5></div>
+            <div class="row p-2">
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <h6 class="text-muted">kolom 1</h6>
+                <h4>Jaren 70</h4>
+                <img src="images/magnavox.jpg" alt="magnavox" width="90%">
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <h6 class="text-muted">kolom 2</h6>
+                <h4>Jaren 80</h4>
+                <img src="images/NES.jpg" alt="NES" width="90%">
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <h6 class="text-muted">kolom 3</h6>
+                <h4>Jaren 90</h4>
+                <img src="images/N64.jpg" alt="N64" width="90%">
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <h6 class="text-muted">kolom 4</h6>
+                <h4>Jaren 2000</h4>
+                <img src="images/Xbone.jpg" alt="XBOX ONE" width="90%">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
 </body>
