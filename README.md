@@ -1,2 +1,2 @@
-# CrashCourseCSS
-Crash course CSS and Bootstrap for starters. This crash course is made for students with good knowledge of HTML.
+CrashCourseCSS
+Deze repository hoort bij de trainingssessie van Pieter Pauwels en Jorne Marx over CSS en BOOTSTRAP. Een goede basiskennis van HTML is vereist voor het volgen van deze cursus.
