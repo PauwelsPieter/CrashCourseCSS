@@ -1,0 +1,106 @@
+body {
+    background-color: #FFC21A;
+
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+
+    font-family: 'Lobster', cursive;
+
+    margin: 0px 0px 20px 0px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+div.block {
+    background-color: white;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+/* Image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*  Table */
+table {
+    margin: auto;
+    width: 90%;
+
+    border-collapse: collapse;
+}
+
+table th {
+    font-size: 1rem;
+}
+
+table tr th, table tr td {
+    border-bottom: 1px solid black;
+
+    height: 30px;
+}
+
+/* Form */
+form > div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+form input[type="submit"] {
+    border: 2px black solid;
+    border-radius: 20px;
+    background-color: #FFC21A;
+
+    font-size: 13px;
+    padding: 15px 20px;
+    margin: 0px;
+}
+
+/* Button */
+button {
+    border: 2px black solid;
+    border-radius: 20px 0px;
+    background-color: white;
+
+    font-size: 16px;
+    padding: 15px 20px;
+    margin: 0px;
+}
+
+@media only screen and (min-width: 500px) {
+    body {
+      background-color: #EBAC00;
+    }
+
+    table {
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+      background-color: #D49B00;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+      background-color: #BF8C00;
+    }
+}
