@@ -16,3 +16,10 @@
 .VBgrid .row .col-lg-3{
     background-color: lightseagreen;
 }
+
+.VBhighlight{
+    background-color: lightgrey;
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+}
