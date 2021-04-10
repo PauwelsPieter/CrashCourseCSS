@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+    <title>CCCSS - Selectoren</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Crash Course CSS</a>
+          <a type="button" class="navbar-toggler border-0" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  CSS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="css/voorbeeld.html">Voorbeeld</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Voorbeelden</a>
+                  <a class="dropdown-item" href="#">Oefeningen</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  BOOTSTRAP
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="bootexample.html">Voorbeelden</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="bootGridEx.html">Grid oefening</a>
+                  <a class="dropdown-item" href="#">DEEL 2</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <body>
+        <!-- Navigation within page -->
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="pills-1-tab" data-toggle="pill" href="#pills-1" role="tab" aria-controls="pills-1" aria-selected="true">Voorbeeld 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-2-tab" data-toggle="pill" href="#pills-2" role="tab" aria-controls="pills-2" aria-selected="false">Voorbeeld 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pills-3-tab" data-toggle="pill" href="#pills-3" role="tab" aria-controls="pills-3" aria-selected="false">Oefening 1</a>
+          </li>
+        </ul>
+
+        <div class="tab-content container" id="pills-tabContent">
+          <!-- Example 1 -->
+          <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+            <h2 id="1">Voorbeeld 1</h2>
+            <iframe src="https://codepen.io/pauwelspieter/embed/JjENypB?default-tab=html&amp;" frameborder="0"></iframe>
+
+            <!-- Tabs -->
+            <ul class="nav nav-tabs" id="tab1" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link" id="instructies1-tab" data-toggle="tab" href="#instructies1" role="tab" aria-controls="instructies1" aria-selected="false">Toon instructies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="resultaat1-tab" data-toggle="tab" href="#resultaat1" role="tab" aria-controls="resultaat1" aria-selected="false">Toon eindresultaat</a>
+              </li>
+            </ul>
+
+            <!-- Tabs content -->
+            <div class="tab-content" id="tab1Content">
+              <!-- Instucties -->
+              <div class="tab-pane fade p-3" id="instructies1" role="tabpanel" aria-labelledby="instructies1-tab">
+                <ol>
+                  <li>Kopieër deze code in je eigen html-file en voeg een css file toe.</li>
+                  <li>Geef <b>de hele pagina</b> een <span class="bg-secondary text-light">grijze</span> achtergrond kleur.</li>
+                  <li>Geef <b>het item Honda</b> een <span class="text-danger">rode</span> tekstkleur door gebruik te maken van het attribuut "id".</li>
+                  <li>Geef <b>het item Renault & Volvo</b> een <span class="text-primary">blauwe</span> tekstkleur door gebruik te maken van het attribuut "class".</li>
+                  <li>Geef <b>de titel en de vetgedrukte tekst</b> een <span class="text-success">groene</span> tekstkleur.</li>
+                  <li>Geef <b>alle elementen binnen de ongesorteerde lijst</b> een <span class="text-warning">oranje</span> tekstkleur.</li>
+                  <li>Geef <b>alle directe paragrafen binnen een div</b> een witte achtergrond kleur.</li>
+                  <li>Geef <b>de paragraaf die na de div komt</b> de achtergrond kleur <span class="bg-info">cyaan</span>.</li>
+                  <li>Geef <b>de paragraaf die elkaar opvolgen</b> de achtergrond kleur <span class="bg-danger">rood</span>.</li>
+                  <li>Geef <b>het eerste item in de ordered list</b> de kleur <span class="text-info">cyaan</span>.</li>
+                  <li>Voeg <b>Achter de titel</b> de tekst " - mijn lijst" toe.</li>
+                </ol>
+              </div>
+
+              <!-- Resultaat -->
+              <div class="tab-pane fade p-3" id="resultaat1" role="tabpanel" aria-labelledby="resultaat1-tab">
+                <img class="img-fluid" src="./images/resultaat1.PNG" alt="eindresultaat voorbeeld 1">
+              </div>
+            </div>
+          </div>
+
+          <!-- Example 2 -->
+          <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+            <h2>Voorbeeld 2</h2>
+            <iframe src="https://codepen.io/pauwelspieter/embed/zYNwRwy?default-tab=html&amp;" frameborder="0"></iframe>
+
+            <!-- Tabs -->
+            <ul class="nav nav-tabs" id="tab1" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link" id="instructies2-tab" data-toggle="tab" href="#instructies2" role="tab" aria-controls="instructies2" aria-selected="false">Toon instructies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="resultaat2-tab" data-toggle="tab" href="#resultaat2" role="tab" aria-controls="resultaat2" aria-selected="false">Toon eindresultaat</a>
+              </li>
+            </ul>
+
+            <!-- Tabs content -->
+            <div class="tab-content" id="tab1Content">
+              <!-- Instucties -->
+              <div class="tab-pane fade p-3" id="instructies2" role="tabpanel" aria-labelledby="instructies2-tab">
+                <ol>
+                  <li>Kopieër deze code in je eigen html-file en voeg een css file toe.</li>
+                  <li>Voeg een Font Awesome CDN toe aan je html-file.</li>
+                  <li>Geef <b>de hele pagina</b> de achtergrond kleur <span style="color: #b7e9f7;">#b7e9f7</span>.</li>
+                  <li>Voeg de font-family <a href="https://fonts.google.com/specimen/Anton?category=Sans+Serif">Anton</a> & <a href="https://fonts.google.com/specimen/Titillium+Web?category=Sans+Serif">Titillium Web</a> toe aan je html-file.</li>
+                  <li>Geef <b>alle tekst</b> op de pagina het font "Titillium Web" en een tekstgrootte van 16px.</li>
+                  <li>Geef <b>alle titels</b> op de pagina het font "Anton"</li>
+                  <li>Geef <b>alle h2's</b> een tekstgrootte 1,5x zo groot als het root element en onderlijn deze titels.</li>
+                  <li>Geef <b>alle h3's</b> een tekstgrootte 1,2x zo groot als het root element.</li>
+                  <li>Geef <b>alle div's die de uitleg van een sport bevatten</b> een zwarte rand van 3px dik.</li>
+                  <li>Rond ook de hoeken van deze rand af in de rechterbovenhoek met 20px.</li>
+                  <li>Zorg ervoor dat de inhoud binnen de rand 15px van de zojuist toegevoegde rand afstaat.</li>
+                  <li>Verwijder de standaard marges en paddings die worden toegepast op de elementen.</li>
+                  <li>Zorg ervoor dat <b>de hele inhoud van de pagina</b> 50px van de rand van het scherm afstaat.</li>
+                  <li>Geef <b>de tweede h3 binnen elke sectie</b> een marge aan de bovenkant van 10px.</li>
+                  <li>Verwijder de bolletjes voor elk item in de lijst.</li>
+                  <li>Geef <b>elk eerste item in de lijst</b> de kleur <span style="color: #D6AF36;">#D6AF36</span>.</li>
+                  <li>Geef <b>elk tweede item in de lijst</b> de kleur <span style="color: #A7A7AD;">#A7A7AD</span>.</li>
+                  <li>Geef <b>elk derde item in de lijst</b> de kleur <span style="color: #A77044;">#A77044</span>.</li>
+                  <li>Positioneer <b>het icoontje binnen elke sectie</b> in de rechterbovenhoek.</li>
+                  <li>Zorg ervoor dat <b>alle afbeeldingen</b> responsief worden.</li>
+                  <li>Zorg ervoor dat de tekst in <b>de link naar boven</b> niet getoond wordt.</li>
+                  <li>Zorg ervoor dat <b>de link naar boven</b> altijd op het scherm getoond wordt als je scrollt en positioneer deze in de rechteronderhoek.</li>
+                  <li>Geef <b>de link naar boven</b> een zwarte kleur en een witte achtergrond kleur.</li>
+                  <li>Zorg ervoor dat <b>de link naar boven</b> geen onderlijning heeft.</li>
+                  <li>Geef <b>de link naar boven</b> een ronde, zwarte rand van 2px.</li>
+                  <li>Geef <b>alle h2's vanaf een schermbreedte van 800px</b> een tekstgrootte 2,5x zo groot als het root element en onderlijn deze titels.</li>
+                  <li>Geef <b>alle h3's vanaf een schermbreedte van 800px</b> een tekstgrootte 1,5x zo groot als het root element.</li>
+                </ol>
+              </div>
+
+              <!-- Resultaat -->
+              <div class="tab-pane fade p-3" id="resultaat2" role="tabpanel" aria-labelledby="resultaat2-tab">
+                <img class="img-fluid" src="./images/resultaat2.PNG" alt="eindresultaat voorbeeld 2">
+              </div>
+            </div>
+          </div>
+
+          <!-- Exercise 1 -->
+          <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+            <h2>Oefening 1</h2>
+            <iframe src="https://codepen.io/pauwelspieter/embed/rNjpJPy?default-tab=html&amp;" frameborder="0"></iframe>
+
+            <!-- Tabs -->
+            <ul class="nav nav-tabs" id="tab3" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link" id="instructies3-tab" data-toggle="tab" href="#instructies3" role="tab" aria-controls="instructies3" aria-selected="false">Toon instructies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="resultaat3-tab" data-toggle="tab" href="#resultaat3" role="tab" aria-controls="resultaat3" aria-selected="false">Toon eindresultaat</a>
+              </li>
+            </ul>
+
+            <!-- Tabs content -->
+            <div class="tab-content" id="tab3Content">
+              <!-- Instucties -->
+              <div class="tab-pane fade p-3" id="instructies3" role="tabpanel" aria-labelledby="instructies3-tab">
+                <ol>
+                  <li>Kopieër deze code in je eigen html-file en voeg een css file toe.</li>
+                  <li>Voeg een Font Awesome CDN toe aan je html-file.</li>
+                  <li>Verwijder de standaard marges en paddings die worden toegepast op de elementen.</li>
+                  <li>Voeg de font-family <a href="https://fonts.google.com/specimen/Oswald">Oswald</a> toe aan je html-file.</li>
+                  <li>Geef alle titels op de pagina het font "Oswald".</li>
+                  <li>Centreer de h1-titel in het midden van de pagina.</li>
+                  <li>Zorg dat alle afbeeldingen op de pagina altijd volledig getoond worden.</li>
+                  <li>Geef alle secties een onderbroken, zwarte lijn van 3px dik.</li>
+                  <li>Zorg dat de content <b>binnen</b> de secties 10px van de rand afstaan.</li>
+                  <li>Zorg dat de inhoud van de pagina 10px van de viewport afstaat.</li>
+                  <li>Zorg dat er onder de h2-titels en de paragrafen 10px ruimte zit.</li>
+                  <li>Geef het camera icoontje een marge van 10px aan de linker kant.</li>
+                  <li>Zorg ervoor dat er binnen een sectie 2 afbeeldingen langs elkaar worden getoond wanneer de schermbreedte groter is dan 700px.</li>
+                  <li>Zorg ervoor dat er binnen een sectie 4 afbeeldingen langs elkaar worden getoond wanneer de schermbreedte groter is dan 1200px.</li>
+                </ol>
+              </div>
+
+              <!-- Resultaat -->
+              <div class="tab-pane fade p-3" id="resultaat3" role="tabpanel" aria-labelledby="resultaat3-tab">
+                <img class="img-fluid" src="./images/resultaat3-1.PNG" alt="eindresultaat 1 oefening 1">
+                <img class="img-fluid" src="./images/resultaat3-2.PNG" alt="eindresultaat 2 oefening 1">
+                <img class="img-fluid" src="./images/resultaat3-3.PNG" alt="eindresultaat 3 oefening 1">
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+
+      <style type="text/css">
+        iframe{
+          width: 100%;
+          height: 600px;
+        }
+      </style>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
+</body>
+</html>
